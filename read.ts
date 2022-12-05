@@ -1,11 +1,5 @@
 import AWS from 'aws-sdk';
-
-let awsConfig={
-    "region": "ap-south-1",
-    "endpoint": "http://dynamodb.ap-south-1.amazonaws.com",
-    "accessKeyId": "AKIA5UCIZXMHLJZOZ76B",
-    "secretAccessKey": "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"
-};
+import { awsConfig } from './config/aws-config';
 
 AWS.config.update( awsConfig);
 
